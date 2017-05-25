@@ -10,5 +10,7 @@ function FizzBuzz () {
     else if (n % 3 === 0){
       return "Fizz";
     }
+    else
+      return n;
   };
 }
