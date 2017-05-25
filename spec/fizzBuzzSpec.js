@@ -15,7 +15,14 @@ describe('FizzBuzz', function (){
       expect(fizzbuzz.says(3)).toEqual('Fizz');
     });
 
-  });
+    it('knows if a number is divisible by 5', function(){
+      expect(fizzbuzz.says(10)).toEqual('Buzz');
+    });
 
+    it('knows if a number is divisible by 5', function(){
+      expect(fizzbuzz.says(15)).toEqual('FizzBuzz');
+    });
+
+  });
 
 });
